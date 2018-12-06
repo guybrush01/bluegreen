@@ -1,7 +1,7 @@
 <?php
 $deployment = getenv("COLOR");
 
-$deployment = getenv("COLOR");
+$deployment = 'green';
 if ( $deployment == 'blue') {
   $color = 'blue';
 } elseif ($deployment == 'green')  {
